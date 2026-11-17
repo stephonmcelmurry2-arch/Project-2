@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/MainMenu.uss?fileID=7433441132597879392&amp;guid=cb864b4ada6ed5ad0a35c64bc9511689&amp;type=3#MainMenu"/>
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="[GAME NAME]" style="font-size: 64px; position: absolute; top: 210px; left: 429px; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/UI/Fonts/RasterForgeRegular-JpBgm.ttf?fileID=12800000&amp;guid=caa340c30edaa5e8faaf595c092bf346&amp;type=3#RasterForgeRegular-JpBgm&quot;);"/>
+        <ui:GroupBox style="position: absolute; top: 62px; left: 392px;">
+            <ui:Button text="START" name="StartButton" class="menuButton" style="position: absolute; top: 477px; left: 134px; width: 287px; height: 62px;"/>
+            <ui:Button text="SETTINGS" name="SettingButton" class="menuButton" style="position: absolute; top: 581px; left: 137px; width: 287px; height: 62px;"/>
+            <ui:Button text="QUIT" name="QuitButton" class="menuButton" style="position: absolute; top: 690px; left: 136px; width: 287px; height: 62px;"/>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+:root {
+}
+
+.menuButton {
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/RasterForgeRegular-JpBgm.ttf?fileID=12800000&guid=caa340c30edaa5e8faaf595c092bf346&type=3#RasterForgeRegular-JpBgm");
+    font-size: 24px;
+}
